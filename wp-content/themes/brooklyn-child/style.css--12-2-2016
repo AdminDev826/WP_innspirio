@@ -1,0 +1,138 @@
+/*
+Theme Name: Brooklyn Child
+Theme URI: http://www.unitedthemes.com
+Description: Creative Portfolio
+Version: 3.0
+Author: United Themes
+Author URI: http://www.unitedthemes.com
+Template: brooklyn
+*/
+
+@import url("../brooklyn/style.css");
+
+
+
+
+/* Helper Classes */
+
+.menu-no-display {
+	display: none !important;
+}
+
+img.portfolio-lazy {
+    opacity: 1 !important;
+}
+
+/* End Helper Classes */
+
+
+
+/* Testimonials fixes */
+
+.ut-quote-comment {
+	font-size: 24px !important;
+}
+
+.ut-quote-name {
+	font-size: 14px !important;
+}
+
+#testimonials .parallax-scroll-container {
+	background-position: center 100%;
+}
+
+#testimonials {
+	height: 446px !important;
+}
+
+/* End Testimonials fixes */
+
+
+
+/* Partnership fixes */
+
+.mobile-hover {
+	opacity: 1 !important;
+    -webkit-transform: translateY(0px) !important;
+    -moz-transform: translateY(0px) !important;
+    -ms-transform: translateY(0px) !important;
+    transform: translateY(0px) !important;
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s !important;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s !important;
+    transition: transform 0.4s, opacity 0.1s !important;
+}
+
+/* Partnership fixes */
+
+
+
+/* Responsive fixes */
+
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+
+	.mp-holder .member-description h3 {
+		font-size: .8em !important;
+	}
+
+	.mp-holder .member-description p {
+		font-size: 10px !important;
+		line-height: 1.5em !important;
+	}
+
+	.mp-holder .member-description span {
+		display: none !important;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	#testimonials {
+		height: 470px !important;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	#testimonials .parallax-scroll-container {
+		background-position: right center !important;
+		background-size: auto !important;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	.mp-holder .member-description h3 {
+		font-size: 1em !important;
+	}
+
+	.mp-holder .member-description p {
+		font-size: 10px !important;
+		line-height: 1.5em !important;
+	}
+
+	#testimonials {
+		height: 530px !important;
+	}
+
+}
+
+@media only screen and (max-width: 430px) {
+
+	#testimonials {
+		height: 430px !important;
+	}
+
+	#testimonials .ut-quote-comment {
+		font-size: 1em !important;
+	}
+
+	#testimonials .ut-quote-name {
+		font-size: 1em !important;
+	}
+
+}
+
+/* End Responsive fixes */

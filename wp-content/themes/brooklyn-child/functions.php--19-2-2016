@@ -1,0 +1,15 @@
+<?php
+
+if( !function_exists( 'autoplay_vimeo_oembed' ) ) {
+
+    function autoplay_vimeo_oembed( $provider, $url, $args ) {
+        
+        if (strpos($provider, 'vimeo')!==FALSE) {
+            $provider = esc_url_raw( add_query_arg('autoplay', 0, $provider) );
+        }
+        return $provider;
+        
+    }
+    add_filter('oembed_fetch_url', 'autoplay_vimeo_oembed', 100000, 3);
+
+}

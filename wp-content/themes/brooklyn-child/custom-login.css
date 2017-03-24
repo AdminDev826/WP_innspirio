@@ -1,0 +1,72 @@
+.login-page {
+    background-color: #f3f3f3; }
+.login-wrapper {
+    color: #88888b;
+    margin: 8% auto 0;
+    background: #ffffff;
+    padding: 25px;
+    width: 320px;
+    text-align: center;
+    font: 400 14px Raleway; }
+.login-wrapper h1 a {
+    background: url("../images/final1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto; }
+.login-wrapper .description {
+    line-height: 1.5; }
+.login-wrapper .message, .login-wrapper #login_error {
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    color: #88888b; }
+.login-wrapper input {
+    background-color: #f3f3f3;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: center; }
+.login-wrapper input[type='submit'] {
+    background-color: #0088f2;
+    border: none;
+    color: #ffffff;
+    font: 400 14px Raleway;
+    box-shadow: none;
+    padding: 10px 30px;
+    text-shadow: none;
+    text-transform: uppercase;
+    width: auto; }
+.login-wrapper input[type='submit']:hover {
+    background-color: #007ada; }
+.login-wrapper ::-webkit-input-placeholder {
+    color: #88888b;
+    font: 400 14px Raleway; }
+.login-wrapper :-moz-placeholder {
+    color: #88888b;
+    font: 400 14px Raleway; }
+.login-wrapper ::-moz-placeholder {
+    color: #88888b;
+    font: 400 14px Raleway; }
+.login-wrapper :-ms-input-placeholder {
+    color: #88888b;
+    font: 400 14px Raleway; }
+.login-wrapper .bottom-links {
+    font: 200 12px Raleway; }
+.login-wrapper .bottom-links a {
+    color: #0088f2;
+    line-height: 1.5;
+    text-decoration: none; }
+.login-wrapper .bottom-links a:hover {
+    color: #006dc2; }
+.home-link {
+    text-align: center;
+    padding: 20px; }
+.home-link a {
+    color: #88888b;
+    text-decoration: none; }
+.home-link a i {
+    margin-right: 5px; }
+.login-page #login-error {
+    color: red; }
+
+/*# sourceMappingURL=custom-vm.css.map */
